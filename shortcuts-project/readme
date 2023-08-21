@@ -1,0 +1,5 @@
+To use this extension:
+- you must copy only the init.js and the manifest.json in a folder. Then that extension(folder) must be uploaded inside your browser. (This step must be done only once)
+- on any web page press ctrl+alt to show the shortcuts and press ctrl+alt again if you want to hide them.
+
+Enjoy :) 
