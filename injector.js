@@ -25,7 +25,7 @@ function addButtons() {
 				  {appName:"John", logo:"https://avramiulian.github.io/iulian.github.io/images/custom.png", href:"https://www.google.ro/", positionTop:"25px", paddingRight:"100px"},
 				  {appName:"John", logo:"https://avramiulian.github.io/iulian.github.io/images/custom2.png", href:"https://www.facebook.com/", positionTop:"25px", paddingRight:null},
 				  {appName:"John", logo:"https://avramiulian.github.io/iulian.github.io/images/custom3.png", href:"https://www.youtube.com/", positionTop:"25px", paddingRight:"50px"},
-				  {appName:"John", logo:"https://avramiulian.github.io/iulian.github.io/images/custom1.png", href:"https://www.facebook.com/", positionTop:"25px", paddingRight:null}
+				  {appName:"John", logo:"https://avramiulian.github.io/iulian.github.io/images/custom.png", href:"https://www.facebook.com/", positionTop:"25px", paddingRight:null}
 				];
 
 				for (let i = 0; i < shortcutsList.length; i++) {
