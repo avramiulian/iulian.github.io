@@ -1,5 +1,5 @@
 function changeMyTextColor() {
 	const body = document.getElementsByTagName("body")[0];
-	body.style.color = "blue";
+	body.style.color = "green";
 }
 
