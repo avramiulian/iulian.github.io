@@ -24,6 +24,7 @@ function addButtons() {
 				const shortcutsList = [
 				  {appName:"John", logo:"https://avramiulian.github.io/iulian.github.io/custom.png", href:"https://www.google.ro/", positionTop:"25px", paddingRight:"100px"},
 				  {appName:"John", logo:"https://avramiulian.github.io/iulian.github.io/custom.png", href:"https://www.facebook.com/", positionTop:"25px", paddingRight:null},
+				  {appName:"John", logo:"https://avramiulian.github.io/iulian.github.io/custom.png", href:"https://www.youtube.com/", positionTop:"25px", paddingRight:"50px"},
 				  {appName:"John", logo:"https://avramiulian.github.io/iulian.github.io/custom.png", href:"https://www.facebook.com/", positionTop:"25px", paddingRight:null}
 				];
 
