@@ -22,10 +22,10 @@ function addButtons() {
 				div.style.boxShadow = "0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)";
 
 				const shortcutsList = [
-				  {appName:"John", logo:"https://avramiulian.github.io/iulian.github.io/custom.png", href:"https://www.google.ro/", positionTop:"25px", paddingRight:"100px"},
-				  {appName:"John", logo:"https://avramiulian.github.io/iulian.github.io/custom.png", href:"https://www.facebook.com/", positionTop:"25px", paddingRight:null},
-				  {appName:"John", logo:"https://avramiulian.github.io/iulian.github.io/custom.png", href:"https://www.youtube.com/", positionTop:"25px", paddingRight:"50px"},
-				  {appName:"John", logo:"https://avramiulian.github.io/iulian.github.io/custom.png", href:"https://www.facebook.com/", positionTop:"25px", paddingRight:null}
+				  {appName:"John", logo:"https://avramiulian.github.io/iulian.github.io/images/custom.png", href:"https://www.google.ro/", positionTop:"25px", paddingRight:"100px"},
+				  {appName:"John", logo:"https://avramiulian.github.io/iulian.github.io/images/custom2.png", href:"https://www.facebook.com/", positionTop:"25px", paddingRight:null},
+				  {appName:"John", logo:"https://avramiulian.github.io/iulian.github.io/images/custom3.png", href:"https://www.youtube.com/", positionTop:"25px", paddingRight:"50px"},
+				  {appName:"John", logo:"https://avramiulian.github.io/iulian.github.io/images/custom1.png", href:"https://www.facebook.com/", positionTop:"25px", paddingRight:null}
 				];
 
 				for (let i = 0; i < shortcutsList.length; i++) {
