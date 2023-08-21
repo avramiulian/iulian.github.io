@@ -22,15 +22,15 @@ function addButtons() {
 				div.style.boxShadow = "0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)";
 
 				const shortcutsList = [
-				  {appName:"John", logo:"https://avramiulian.github.io/iulian.github.io/programming.png", href:"https://www.google.ro/", positionTop:"25px", paddingRight:"100px"},
-				  {appName:"John", logo:"https://avramiulian.github.io/iulian.github.io/programming.png", href:"https://www.facebook.com/", positionTop:"25px", paddingRight:null},
-				  {appName:"John", logo:"https://avramiulian.github.io/iulian.github.io/programming.png", href:"https://www.facebook.com/", positionTop:"25px", paddingRight:null}
+				  {appName:"John", logo:"https://avramiulian.github.io/iulian.github.io/custom.png", href:"https://www.google.ro/", positionTop:"25px", paddingRight:"100px"},
+				  {appName:"John", logo:"https://avramiulian.github.io/iulian.github.io/custom.png", href:"https://www.facebook.com/", positionTop:"25px", paddingRight:null},
+				  {appName:"John", logo:"https://avramiulian.github.io/iulian.github.io/custom.png", href:"https://www.facebook.com/", positionTop:"25px", paddingRight:null}
 				];
 
 				for (let i = 0; i < shortcutsList.length; i++) {
 				  	let link = document.createElement('a');
 					let img = document.createElement("img");
-					img.src = shortcutsList[i].logo+"?"+performance.now();
+					img.src = shortcutsList[i].logo;
 					link.appendChild(img);
 					link.href = shortcutsList[i].href;
 					link.style.top = shortcutsList[i].positionTop;
