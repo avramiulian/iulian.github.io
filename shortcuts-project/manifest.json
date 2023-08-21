@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Shortcuts extension",
+    "description": "Add back shortcuts",
+    "homepage_url": "http://ia",
+    "version": "1.0",
+    "browser_action": {
+        "default_title": "Click here to add shortcuts!"
+    },
+    "content_scripts" : [
+        {
+         "js": ["init.js"],
+         "matches": ["https://*/*"]
+        }
+    ],
+    "permissions": [
+        "http://*/*",
+        "https://*/*"
+    ]
+}
