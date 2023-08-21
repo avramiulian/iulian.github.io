@@ -9,12 +9,13 @@
     },
     "content_scripts" : [
         {
-         "js": ["init.js"],
+         "js": ["injector.js"],
          "matches": ["https://*/*"]
         }
     ],
     "permissions": [
         "http://*/*",
         "https://*/*"
-    ]
+    ],
+    "web_accessible_resources": []
 }
